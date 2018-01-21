@@ -1,6 +1,7 @@
 const binance   = require('node-binance-api');
 var MongoClient = require('mongodb').MongoClient;
 var url         = "mongodb://localhost:27017/";
+var DB          = "Place_Your_DB_Name_Here";
 
 /**
  * Initialize Binance API
@@ -17,7 +18,7 @@ function insert()
 
                 MongoClient.connect(url, function(err, db) {
                     if (err) throw err;
-                    var dbo = db.db("coinsngl");
+                    var dbo = db.db(DB);
                     var myobj = {
                         symbol: symbol,
                         eventType: eventType,

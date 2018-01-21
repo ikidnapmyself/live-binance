@@ -13,6 +13,7 @@ npm install node-binance-api
 Set MongoDB connection at the top of `index.js` file before you run it
 ```
 var url = "mongodb://localhost:27017/";
+var DB  = "Place Your DB Name Here";
 ```
 
 After you get ready to run your JS file run this command!
