@@ -1,6 +1,6 @@
 # How to use
 
-######This application requires `NodeJS` and `MongoDB`
+###This application requires `NodeJS` and `MongoDB`
 
 It's a simple tool to retrieve data from Binance Websocket. Official documentation is [here!](https://github.com/binance-exchange/binance-official-api-docs)
 
